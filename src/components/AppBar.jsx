@@ -1,13 +1,15 @@
-import { Box } from '@mui/system'
+
+import { AppBar } from '@mui/material'
 import React from 'react'
 
-const AppBar = () => {
+const NavBar = () => {
   return (
 
-
-   <Box bgcolor="red" mt={4} flex={1} p={2}>Place to Visit</Box>
+   <AppBar> 
+NavBar
+   </AppBar>
     
-  )
+  );
 }
 
-export default AppBar
+export default NavBar
